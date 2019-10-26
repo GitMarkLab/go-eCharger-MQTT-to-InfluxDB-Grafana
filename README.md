@@ -7,7 +7,9 @@ Run script on start up:
 nano /etc/rc.local
 
 add:
+
 sleep 10s
+
 su pi -c 'python3 /[path to the script].py' &
 
 
