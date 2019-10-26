@@ -14,8 +14,8 @@ influx_username = 'pi'
 influx_pw = 'pw'
 influx_databasename = 'ifx_db_name'
 
-cahrger_name = 'go-eCharger'
-charger_id   = 'CHARGER-ID'
+cahrger_name = 'go-eCharger' # fix name from device in MQTT, you can test it with MQTT.fx on Windows machine by subscribing to "go-eCharger/#" or  "go-eCharger/[ID]/#" 
+charger_id   = 'CHARGER-ID'  # see number in WiFi Hotspot Name
 
 # Remaped Name
 device_tag = 'Device_44/charger/'
